@@ -41,9 +41,6 @@
     "url": "https://github.com/stashenergy/react-native-msal/issues"
   },
   "homepage": "https://github.com/stashenergy/react-native-msal#readme",
-  "dependencies": {
-    "@azure/msal-browser": "^2.1.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
@@ -123,5 +120,8 @@
       "module",
       "typescript"
     ]
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^4.0.2"
   }
 }
